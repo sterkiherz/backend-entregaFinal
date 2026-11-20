@@ -85,6 +85,7 @@ archivos/
 
   `middlewares`                       Gestiona la autenticación,
                                       autorización y los errores.
+
   -----------------------------------------------------------------------
 
 ## Requisitos previos
@@ -259,7 +260,8 @@ Authorization: Bearer TOKEN_JWT
                                              producto.         
 
   `DELETE`          `/api/products/:id`      Elimina un        Administrador
-                                             producto.         
+                                             producto.    
+
   ------------------------------------------------------------------------------
 
 #### Consultar todos los productos
@@ -368,6 +370,7 @@ La API contempla los siguientes códigos de estado HTTP:
                                                   inesperado en el
                                                   servidor o al acceder a
                                                   un servicio externo.
+                                                  
   -----------------------------------------------------------------------
 
 Los errores inesperados de los controladores se envían mediante
