@@ -370,7 +370,7 @@ La API contempla los siguientes códigos de estado HTTP:
                                                   inesperado en el
                                                   servidor o al acceder a
                                                   un servicio externo.
-                                                  
+
   -----------------------------------------------------------------------
 
 Los errores inesperados de los controladores se envían mediante
@@ -412,4 +412,6 @@ rutas inexistentes y el endpoint `/test-error`, respectivamente.
 
 ------------------------------------------------------------------------
 
-**Objetivo:** El objetivo del proyecto es desarrollar una API REST utilizando Node.js y Express para administrar un catálogo de productos, implementar operaciones CRUD mediante los métodos HTTP (GET, POST, PUT y DELETE), almacenar y gestionar los datos en Firebase Firestore y proteger las rutas mediante autenticación JWT y autorización por roles. Además, se busca aplicar una arquitectura en capas y gestionar los errores mediante los correspondientes códigos de estado HTTP.
+**NOTA:** El proyecto se ha desplegado en Render, dado que vercel presentaba errores y no permitía conectar con github.
+
+
