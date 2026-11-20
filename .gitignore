@@ -1,0 +1,5 @@
+# para proteger las credenciales
+
+node_modules/
+.env
+config/serviceAccountKey.json
